@@ -1,0 +1,4 @@
+#String fname, String lname, int licence_id, String password, Date birthdate, String address, String card_num, String card_csv
+User1 Test1 1 pass1 2024-1-1 address1 13-13-13-13 321
+User2 Test2 2 pass2 2024-1-1 address2 13-13-13-13 321
+User3 Test3 3 pass3 2024-1-1 address3 13-13-13-13 321

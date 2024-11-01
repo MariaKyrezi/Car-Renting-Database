@@ -1,0 +1,42 @@
+Place the downloaded JAR file (e.g., mysql-connector-java-8.x.x.jar) in the lib directory of your Java project, or add it to your project's classpath.
+
+Locate the JAR File:
+Make sure you have downloaded the MySQL Connector/J JAR file (mysql-connector-java-8.x.x.jar or a similar version) from the MySQL website.
+
+Add JAR to Eclipse Project:
+
+Open Eclipse and your project.
+Right-click on your project in the Project Explorer.
+Select "Build Path" and then click on "Configure Build Path."
+Add External JARs:
+
+In the "Properties" dialog, go to the "Libraries" tab.
+Click on the "Add External JARs..." button.
+Navigate to the location where you saved the MySQL Connector/J JAR file, select it, and click "Open."
+Apply Changes:
+
+Click "Apply and Close" to apply the changes to your project's build path.
+
+- Run XAMPP with admin rights or the XAMPP control will crash when exiting
+
+
+ToDo : 
+
+(done) Bale check box sto reservation window "someone else is driving" kai an ginei check na bgazei dunamika JTextfield gia na parei to license id tou allou odhgou,
+ara kai sto rental form table tha mpei ekeino to allo id
+
+(done)Ypologise Rent_duration - Rent_date = total rent days , to opoio meta kaneis (total rent days) * rent_pay_amount kai deixneis sto reservation window
+(done)Kathe fora pou ginete rent auxise to rent counter (kai kathe fora pou allazei to vehicle id kai type???)
+
+Sto reservation bale field gia na plhrwsei to security cost, an einai empty (den exei plhrwsei) tha to exoume san extra field sto table wste otan ginei
+accident h blabh na doume an plhrwse.
+
+Sto report accident bgale thn yes no erwthsh kai bale "Blabh or accident" erwthsh
+Otan dhlwsei atuxhma bgazoume to vehicle apo to database (h to kanw transfer se damaged_vehicles table) kai tha prepei na exoun days_to_repair
+Se periptwsh pou plhwrhthike h asfalia kanoume allagh to vehicle sto rental form xwris xrewsh alliws plhrwnei 3x tou total_rent_cost
+
+Otan ginete reservation check car,motor o driver > 18 age kai scooter,bicycle > 16 age
+
+(done)Check otan ena vehicle ginete reserve na mhn mporei allos na to kanei reserve (check rental form table)
+
+Add logout button?

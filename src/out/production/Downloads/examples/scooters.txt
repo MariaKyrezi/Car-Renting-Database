@@ -1,0 +1,4 @@
+# String type, int vehicle_id, float rent_cost, float vehicle_range, float insurance_cost, String color, int rent_counter
+Scooter 1 100.50 5000 100 black 4
+Scooter 2 105.50 5000 200 red 3
+Scooter 3 110.50 5000 50 silver 2
